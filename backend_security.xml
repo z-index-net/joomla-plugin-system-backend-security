@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Backend Security</name>
+    <author>mediahof</author>
+    <creationDate>Jun 2013</creationDate>
+    <copyright>(C) 2013 mediahof. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>mail@mediahof.de</authorEmail>
+    <authorUrl>www.mediahof.de</authorUrl>
+    <version>@REVISION@</version>
+    <description>developed by mediahof - Multimedia, Communication and IT</description>
+    <files>
+        <filename plugin="backend_security">backend_security.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="key" type="text" size="70" label="Key" description="Personal key for backend login" default="login" />
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <server type="collection" priority="1" name="mediahof">http://extensions.mediahof.de/extensions.xml</server>
+    </updateservers>
+</extension>
