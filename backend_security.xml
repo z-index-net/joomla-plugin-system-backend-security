@@ -3,7 +3,7 @@
     <name>System - Backend Security</name>
     <author>mediahof</author>
     <creationDate>Jun 2013</creationDate>
-    <copyright>(C) 2013 mediahof. All rights reserved.</copyright>
+    <copyright>(C) 2013 - 2014 mediahof. All rights reserved.</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>mail@mediahof.de</authorEmail>
     <authorUrl>www.mediahof.de</authorUrl>
@@ -11,7 +11,6 @@
     <description>developed by mediahof - Multimedia, Communication and IT</description>
     <files>
         <filename plugin="backend_security">backend_security.php</filename>
-        <filename>index.html</filename>
     </files>
     <config>
         <fields name="params">
